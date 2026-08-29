@@ -1,26 +1,29 @@
 # HTML CV / Personal Resume Project 📄
 
-A clean, semantic, and well-structured personal CV webpage built using pure **HTML5**. This project serves as a foundational step in mastering web development and version control best practices.
+A clean, semantic, and well-structured personal CV webpage built using pure **HTML5**. This project serves as a foundational step in mastering web development standards, DOM architecture, and version control best practices.
 
-## 🚀 Live Demo / Repository Details
+---
+
+## 🚀 Live Repository Details
 
 - **Author:** Noor Fatima
 - **Target Stack:** PERN (PostgreSQL, Express.js, React, Node.js)
 - **Repository Name:** `html-CV-Project`
+- **GitHub Link:** [https://github.com/noorfatima2006org-design/html-resume-project](https://github.com/noorfatima2006org-design/html-resume-project)
 
 ---
 
 ## 📌 Features
 
-- **Semantic HTML5:** Built using semantic tags like `<header>`, `<main>`, `<section>`, and `<hr>`.
-- **Contact Details:** Integrated direct `mailto:` links and external profiles (`LinkedIn`, `GitHub`) with standard safety attributes (`rel="noopener"`).
-- **Clean Structure:** Clear separation of sections including Professional Summary, Education, Technical Skills, and Academic Projects.
+- **Semantic HTML5 Architecture:** Built using structured tags (`<header>`, `<main>`, `<section>`, `<article>`, and `<footer>`) for better SEO and accessibility (a11y).
+- **Direct Contact Links:** Integrated `mailto:` protocol and target external profile links (`LinkedIn`, `GitHub`) using `rel="noopener"` security standards.
+- **Data Organization:** Structured presentation of education background, skill sets, and active project roadmaps using clean HTML lists and sectioning.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-- **Markup Language:** HTML5
+- **Markup:** HTML5
 - **Version Control:** Git & GitHub
 - **Editor:** Visual Studio Code
 
@@ -30,6 +33,6 @@ A clean, semantic, and well-structured personal CV webpage built using pure **HT
 
 ```text
 html-CV-Project/
-├── index.html        # Main HTML Resume Page
-├── profile.png       # Profile Picture
-└── README.md         # Project documentation
+├── index.html        # Main Semantic HTML Resume Page
+├── profile.png       # Profile Picture Asset
+└── README.md         # Project Documentation

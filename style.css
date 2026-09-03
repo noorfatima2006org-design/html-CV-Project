@@ -1,0 +1,133 @@
+/* CSS Variables Definition */
+:root {
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --heading-color: #2c3e50;
+    --text-color: #4a5568;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: var(--card-bg);
+    box-shadow: 0 4px 12px var(--shadow-color);
+    border-radius: 8px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+    margin-bottom: 12px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--heading-color);
+}
+
+header h2 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+header a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* Section Divider */
+hr {
+    border: 0;
+    height: 1px;
+    background: var(--border-color);
+    margin: 20px 0;
+}
+
+/* Section Headings */
+section h2 {
+    color: var(--heading-color);
+    font-size: 1.3rem;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+section p {
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+/* Project & Article Styling */
+article h3 {
+    font-size: 1.05rem;
+    color: var(--heading-color);
+    margin-bottom: 4px;
+}
+
+article p strong {
+    color: var(--primary-color);
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+ul a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 0.85rem;
+}
